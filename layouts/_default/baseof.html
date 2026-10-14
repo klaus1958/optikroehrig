@@ -6,7 +6,7 @@
     <title>{{if .IsHome}}{{ .Site.Title }}{{else}}{{ .Title }} | {{ .Site.Title }}{{end}}</title>
     <link rel="stylesheet" href="{{ "css/blade.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-  </head>  
+</head>  
   <body>
     <header>
       <nav>
@@ -23,7 +23,9 @@
     </header>
 
     <main>
+      
       {{ block "main" . }}{{ end }}
+     
     </main>
 
     <footer>

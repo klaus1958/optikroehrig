@@ -1,3 +1,4 @@
 baseURL = 'https://example.org/'
 locale = 'de-de'
 title = 'Optik Röhrig'
+description = 'in Weilheim seit 1966'
